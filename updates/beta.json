@@ -1,11 +1,19 @@
 {
   "version": "0.2.1",
   "notes": "The first release delivered through in-app updates, and Windows joins the macOS and Linux downloads.\n\n### New\n\n- **About page** — see your version, choose the Stable or Beta update channel, turn automatic checks on or off, and reach whisperpal.app from **Settings → About**.\n- **Check for updates from the menu bar** — the menu bar icon now has **Check for Updates…**, alongside the app menu. Updates never interrupt a recording.\n- **Windows build** — a Windows installer is available alongside macOS and Linux (AppImage, DEB and RPM).\n\n### Improved\n\n- **Recording controls** — an active meeting now sits in a compact toolbar control with details on click, instead of a full-width banner. Banners only appear for detection and permission prompts.\n- **Recording capsule** — the red timer marks a recording, and warnings appear in place of the title while the timer keeps running.\n- **Audio recording pill** — shows a level meter, the elapsed time and a stop button.\n- **ChatGPT MCP setup** — clearer guidance that direct setup works on ChatGPT web, desktop and mobile within your ChatGPT plan.",
-  "pub_date": "2026-10-26T05:16:08Z",
+  "pub_date": "2026-10-26T08:35:17Z",
   "platforms": {
     "darwin-aarch64": {
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSV3A5OVU1WFlEYTcyM3ZaQlhCdGE4ak9JUi9tMzVkczBoeGpWNWlpMml5WEdPZ0lGY1JRUGVYMWlNTlREOC9RdXptcUtPcnMxTnhyMlM5YVdqbTZQeUtyNFlMMjVJS1FrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyOTkxNjM4CWZpbGU6V2hpc3BlclBhbF8wLjIuMV9tYWNvc19hcm02NC5hcHAudGFyLmd6CjMxKzRUWlZIRW4zUmVFQ2s2dE5vdTVPTTJUdkx2OHNmSDA2cnVQVGFlWURjVnp6Qi9hSm1LTTlVbGNFazkzZVRSVllYTnZ0ekQ5NE9kclRaTHA2M0RRPT0K",
       "url": "https://github.com/HanryYu/whisperpal-releases/releases/download/v0.2.1/WhisperPal_0.2.1_macos_arm64.app.tar.gz"
+    },
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSV3A5OVU1WFlEYTRGSjVBSVU5QXg2RlBRR3JuRUJ2VEg2eElmazZUQWRRTnhZSWJQdlBuaFNRU1BWM2JaNlhZRlpuMWRkSTFUT0ZKalowR3U4OWg4T2VoajA3bEZUNGdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMDAzNjQ3CWZpbGU6V2hpc3BlclBhbF8wLjIuMV93aW5kb3dzX3g2NC5leGUKdS9XZjFlR1czLytDQzhBUzdJcFZEVC9zSkVaNGxmRmxBNldVMDRvQnNaS0FGQ2orVm4rdWJpeWFBKzBhbzl4ME8yOHBlejBoWDBmRHJUWCtQU1N1Qmc9PQo=",
+      "url": "https://github.com/HanryYu/whisperpal-releases/releases/download/v0.2.1/WhisperPal_0.2.1_windows_x64.exe"
+    },
+    "linux-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSV3A5OVU1WFlEYStESjhRRW9sMnQxWEdRUTQ4RVF4TFFDb3lsY2dHNTVvUVplRCs1MC9hbEx3QXBib01FdmZGU1hxV1RZRmw3U29rZVZxMjFFR0NLMmRGMUR3cHFsMkFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMDAzNjQ3CWZpbGU6V2hpc3BlclBhbF8wLjIuMV9saW51eF94NjQuQXBwSW1hZ2UKZElkQXJnUlBFK0pRSktpZnB0MDB1VGV5NnRtWVg1QzBCTVFESmdvTUYxdHN1K3Rkd0lPQlcrakZ1K0FyL3FKVkJFV2ZCRndOR1RUUjIyYktJdjVXRGc9PQo=",
+      "url": "https://github.com/HanryYu/whisperpal-releases/releases/download/v0.2.1/WhisperPal_0.2.1_linux_x64.AppImage"
     }
   },
   "notes_i18n": {
@@ -14,6 +22,10 @@
   },
   "release_page": "https://github.com/HanryYu/whisperpal-releases/releases/tag/v0.2.1",
   "downloads": {
-    "macos_arm64": "https://github.com/HanryYu/whisperpal-releases/releases/download/v0.2.1/WhisperPal_0.2.1_macos_arm64.dmg"
+    "macos_arm64": "https://github.com/HanryYu/whisperpal-releases/releases/download/v0.2.1/WhisperPal_0.2.1_macos_arm64.dmg",
+    "windows_x64": "https://github.com/HanryYu/whisperpal-releases/releases/download/v0.2.1/WhisperPal_0.2.1_windows_x64.exe",
+    "linux_x64": "https://github.com/HanryYu/whisperpal-releases/releases/download/v0.2.1/WhisperPal_0.2.1_linux_x64.AppImage",
+    "linux_x64_deb": "https://github.com/HanryYu/whisperpal-releases/releases/download/v0.2.1/WhisperPal_0.2.1_linux_x64.deb",
+    "linux_x64_rpm": "https://github.com/HanryYu/whisperpal-releases/releases/download/v0.2.1/WhisperPal_0.2.1_linux_x64.rpm"
   }
 }
