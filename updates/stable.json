@@ -1,11 +1,15 @@
 {
   "version": "0.2.0",
   "notes": "WhisperLocal is now **WhisperPal**. Your library, settings, models and integrations carry over automatically.\n\n### New\n\n- **Live transcript window** — a floating, pinnable transcript that follows the meeting as it happens.\n- **LAN transcription** — pair another computer running WhisperPal and send recordings to it over an encrypted connection. Speaker recognition can run there too.\n- **Remote MCP for every computer** — one connection from Claude or ChatGPT reaches all of your paired computers. Transcript snapshots can optionally answer while a Mac is offline; audio never leaves your device.\n- **More local engines** — WhisperKit, Qwen3-ASR and Parakeet join Whisper, with recommendations for your Mac.\n- **Bring your own AI** — configure several AI and transcription providers, including the Codex, Claude Code and OpenCode CLIs.\n- **Browser meetings** — calls in Chrome, Edge, Safari, Arc and Dia are detected alongside native meeting apps.\n- **Dictation styles** — per-app styles, double-tap modifier shortcuts and push-to-talk.\n\n### Improved\n\n- Speaker recognition filters microphone bleed and remembers your corrections.\n- Meeting detection, calendar titles and recording reminders are more reliable.\n- Settings were rebuilt with clearer navigation.\n- AI summaries and chat render Markdown and stream faster.\n- Faster library loading and lower memory use for local models.",
-  "pub_date": "2026-10-25T13:50:23Z",
+  "pub_date": "2026-10-26T04:05:59Z",
   "platforms": {
     "darwin-aarch64": {
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSV3A5OVU1WFlEYTVlMzFoOTZicTRjbWwrcHp6TGw1SkJzTHp4VnVXTjM2Vk83RXhMcWxLU2J3OUtaWTdoU240VDUxTFNTVTdSWDFzWHQyMDVubzVkT3NUWDloc3JLTXdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyOTM2MjIxCWZpbGU6V2hpc3BlclBhbF8wLjIuMF9tYWNvc19hcm02NC5hcHAudGFyLmd6CitIRU02KzRuNlhiNU42NEJpdkVpcFRMbDJzd2k0NWJCcDEzNWpoazMxYVJBdUZ6cFd6cEllZEx1YWFKeVMrNjVKTms5VDU0K3R6UGpkS0F4RzJCREJnPT0K",
       "url": "https://github.com/HanryYu/whisperpal-releases/releases/download/v0.2.0/WhisperPal_0.2.0_macos_arm64.app.tar.gz"
+    },
+    "linux-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSV3A5OVU1WFlEYXpnY2p4dXhTa0d3M3lzRWN5Z2ROR1NwQllWSGlUczBKd2pjRXAvTzBrYm9JS3RaSloyd2VSN0R0cGQ2K0dGczVDZEFYb0FXUlpWUkg0NFZNRFJaRncwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyOTg3MTI4CWZpbGU6V2hpc3BlclBhbF8wLjIuMF9saW51eF94NjQuQXBwSW1hZ2UKajRWU21Ob3RDS1NuRmZSZDlOM1d2WVZmZWtzcXgrMDNQUzc2cW0xQXNkWVNOTXNmcGtLKytxU25IRDBZK0hsUHZYSkl4SGFXQTZzaklqWkJWMDMzQ2c9PQo=",
+      "url": "https://github.com/HanryYu/whisperpal-releases/releases/download/v0.2.0/WhisperPal_0.2.0_linux_x64.AppImage"
     }
   },
   "notes_i18n": {
@@ -14,6 +18,9 @@
   },
   "release_page": "https://github.com/HanryYu/whisperpal-releases/releases/tag/v0.2.0",
   "downloads": {
-    "macos_arm64": "https://github.com/HanryYu/whisperpal-releases/releases/download/v0.2.0/WhisperPal_0.2.0_macos_arm64.dmg"
+    "macos_arm64": "https://github.com/HanryYu/whisperpal-releases/releases/download/v0.2.0/WhisperPal_0.2.0_macos_arm64.dmg",
+    "linux_x64": "https://github.com/HanryYu/whisperpal-releases/releases/download/v0.2.0/WhisperPal_0.2.0_linux_x64.AppImage",
+    "linux_x64_deb": "https://github.com/HanryYu/whisperpal-releases/releases/download/v0.2.0/WhisperPal_0.2.0_linux_x64.deb",
+    "linux_x64_rpm": "https://github.com/HanryYu/whisperpal-releases/releases/download/v0.2.0/WhisperPal_0.2.0_linux_x64.rpm"
   }
 }
