@@ -1,11 +1,19 @@
 {
   "version": "0.2.3",
   "notes": "Settings apply automatically, and dictation works alongside your recordings.\n\n### Improved\n\n- **Instant settings** — meeting, live transcription, and audio retention preferences apply as you change them. Changes that delete existing audio still show a preview and require confirmation.\n- **Dictation during recording** — dictate while a meeting or manual recording continues, without interrupting either capture.\n- **Dictation overlay on macOS** — a refreshed glass capsule shows the microphone waveform and elapsed time, and follows the display containing your focused window.\n\n### Fixed\n\n- **Keyboard shortcuts on macOS** — improved left and right modifier-key handling and double-tap detection. Shortcuts remain saved while Input Monitoring permission is pending.\n- **Launch at login on macOS** — fixed initial registration and improved approval status and error reporting.",
-  "pub_date": "2026-10-29T12:56:50Z",
+  "pub_date": "2026-10-29T13:27:06Z",
   "platforms": {
     "darwin-aarch64": {
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSV3A5OVU1WFlEYXlYNjMvVlBFSHJvMkU1MHIwSWpFOTN1OVNEeHlKanBNWmtLUzJIeWs0REdxbUMzZVVhdndLZi9CMFlTMWNrRjlENDg1UmtNbGwza1FhdnFQVjgzTUFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMjc4NTI2CWZpbGU6V2hpc3BlclBhbF8wLjIuM19tYWNvc19hcm02NC5hcHAudGFyLmd6ClA2Q2dPS2dUTGVKRVRlWUlWaGxJbFhsanEwWEVUQTdYM2JvK1V2cDk1b0J0R3pFdzgwT2c0b0JxNGhwS2x3eW05UG5BNTRhNGtFa3ArSzN1VDFSeUF3PT0K",
       "url": "https://github.com/HanryYu/whisperpal-releases/releases/download/v0.2.3/WhisperPal_0.2.3_macos_arm64.app.tar.gz"
+    },
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSV3A5OVU1WFlEYTgrQmJRRFZGQ2lkVlZEMUFOeHoxUHJCdG9GcURFcmxaNThvOEE4MSt6UDZwSkQzWm43Z3NFNGsrU3cxVkR2V1hnTXRPaVhidEQ5bGk5RkVPUk5pMVF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMjgwMzU4CWZpbGU6V2hpc3BlclBhbF8wLjIuM193aW5kb3dzX3g2NC5leGUKci9xUHJsUVdtemFOOWJad1FpTkppSU13MUlHL1FGTFRpQUg0NVVsVTIvMUtzb2U0NUk1L1I1MGtEV1ZQRUJmbzV2SjNlQytBRWxZUEpieE80YXQwQVE9PQo=",
+      "url": "https://github.com/HanryYu/whisperpal-releases/releases/download/v0.2.3/WhisperPal_0.2.3_windows_x64.exe"
+    },
+    "linux-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSV3A5OVU1WFlEYStsNERIZ1BUUUtuYlNsSittblJ3OTdoZHgrTmpQdjZQcUFTTER2MUw1YnlDdjhvNDRYTXd5Q1ZEeWFhY0tsOWdqY29wSXJnSEpiMTJNR3BxWkg2MWdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMjgwMzU5CWZpbGU6V2hpc3BlclBhbF8wLjIuM19saW51eF94NjQuQXBwSW1hZ2UKSm9QTTU0elJ6Mi9zejZQeFh6eXpUVytjUHc3Q2I2VjJIbGhZcGJCaDRvaXBWOE5Db1FCS1pya2hSb1UzWkZlTHlPdVp3ekVjdDNsU2pzNEphbHZnQlE9PQo=",
+      "url": "https://github.com/HanryYu/whisperpal-releases/releases/download/v0.2.3/WhisperPal_0.2.3_linux_x64.AppImage"
     }
   },
   "notes_i18n": {
@@ -14,6 +22,10 @@
   },
   "release_page": "https://github.com/HanryYu/whisperpal-releases/releases/tag/v0.2.3",
   "downloads": {
-    "macos_arm64": "https://github.com/HanryYu/whisperpal-releases/releases/download/v0.2.3/WhisperPal_0.2.3_macos_arm64.dmg"
+    "macos_arm64": "https://github.com/HanryYu/whisperpal-releases/releases/download/v0.2.3/WhisperPal_0.2.3_macos_arm64.dmg",
+    "windows_x64": "https://github.com/HanryYu/whisperpal-releases/releases/download/v0.2.3/WhisperPal_0.2.3_windows_x64.exe",
+    "linux_x64": "https://github.com/HanryYu/whisperpal-releases/releases/download/v0.2.3/WhisperPal_0.2.3_linux_x64.AppImage",
+    "linux_x64_deb": "https://github.com/HanryYu/whisperpal-releases/releases/download/v0.2.3/WhisperPal_0.2.3_linux_x64.deb",
+    "linux_x64_rpm": "https://github.com/HanryYu/whisperpal-releases/releases/download/v0.2.3/WhisperPal_0.2.3_linux_x64.rpm"
   }
 }
