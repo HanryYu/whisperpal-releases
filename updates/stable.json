@@ -1,31 +1,31 @@
 {
-  "version": "0.2.4",
-  "notes": "Meeting transcripts keep speaker labels more consistently across continuous speech and repeated speaker identification.\n\n### Updated\n\n- **macOS app icon** — refreshed the application icon.\n\n### Fixed\n\n- **Continuous speech** — merge supported fragments from the same speaker while preserving pauses, short interjections, and overlapping speakers.\n- **Uncertain passages** — keep uncertainty limited to the affected words instead of removing the speaker label from an entire long passage.\n- **Saved meetings** — re-identifying speakers preserves manual assignments, cleared labels, translations, and existing word timing, with stable results when applied again.\n- **Speaker detection on macOS** — retain short speech segments without enough evidence to merge them, and avoid filtering local speech twice after dual-track echo analysis.",
-  "pub_date": "2026-10-29T16:14:58Z",
+  "version": "0.2.5",
+  "notes": "The session AI panel sits in its own rounded surface, and Windows and Linux use the app's window controls.\n\n### Updated\n\n- **Session AI panel** — the panel is inset inside the session, with rounded corners and its own surface.\n- **Windows and Linux windows** — minimize, maximize, and close sit at the top right. App actions are in the sidebar menu.",
+  "pub_date": "2026-11-01T12:48:14Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSV3A5OVU1WFlEYTZZOGI3SUlwbFRXMnNIVDJnWHM4U0FTRmIxcTVQUTBueVVjZ2NFWVU1bzdHYitHeE5NVmFsWXF3MlVwUGdvcGI1M0o2SlhOYXlVTm42cUhTcHBpRkEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMjkwMjk2CWZpbGU6V2hpc3BlclBhbF8wLjIuNF9tYWNvc19hcm02NC5hcHAudGFyLmd6CnBKTldxVHZEN0dLQ0xjblFFSXBiOGMxU21Rai9ubjhEdXdpakRtWUxqcmJWbkVKWnVLUGdNYzBJUlptQmVGVWhGdnA5ZU92RktMamVoUk9sZDFkV0F3PT0K",
-      "url": "https://github.com/HanryYu/whisperpal-releases/releases/download/v0.2.4/WhisperPal_0.2.4_macos_arm64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSV3A5OVU1WFlEYXhXbzl0blhkMXVqMUxVTUdQdHNrVGVyK29EZUtONTlNNzYzQUtWVXZKQktGL3MvMXkrVVpEY3VyYUYyeGwvbi8rV0FkczdsMjdaUnduZFlWQlNDQ1FNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNTM3MDkxCWZpbGU6V2hpc3BlclBhbF8wLjIuNV9tYWNvc19hcm02NC5hcHAudGFyLmd6CkhXS3lCVUhIL0NabG1xSGVkcTloeFhKS3I0U25ENVRCMy9BZk12azFQRHFLQnYyTGhraW9seDFtNmRKd1JGamM5WFhLNWdiMlRkVDdYVnJSSHZNV0NBPT0K",
+      "url": "https://github.com/HanryYu/whisperpal-releases/releases/download/v0.2.5/WhisperPal_0.2.5_macos_arm64.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSV3A5OVU1WFlEYTBLZU45NDNNOEtpVWxVRGlOOGdNU2pjOU1FTExoWE1mNGgrYnlMS3JGWUcrOVBxd3NJbllCQ3NidngraWlSazVrNE9PMGpMUzAyK0g3TUdwVzVvcUF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMjkwMjk2CWZpbGU6V2hpc3BlclBhbF8wLjIuNF93aW5kb3dzX3g2NC5leGUKN0NjT21pL04wSXQ3c01yUitGQWtSbDVZbVE2aGRJTU00SEdRRWs0UHlRckg4VEJ4dzVWbDJINkJlMTNSUko5OEEwT3NMMmpkMHFWMDhQNTE4Z3EzRHc9PQo=",
-      "url": "https://github.com/HanryYu/whisperpal-releases/releases/download/v0.2.4/WhisperPal_0.2.4_windows_x64.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSV3A5OVU1WFlEYXd6VnhDWmlqd0hKbFZ6QUNkYk5CWEF3QzVLUHFXcldNY1RQRWFnR0RuQWlQL3NMTmtjMG9VcWtTUHBkbkgxM01uRG9GS2dCWWlMUVdTTlVJbnVEb1FVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNTM3MDkxCWZpbGU6V2hpc3BlclBhbF8wLjIuNV93aW5kb3dzX3g2NC5leGUKSEl6TzlieXM1eGV0K1lXYWpaM2FtcHZubHZNYytGaysvZm1rUVFVbDhoeTcvTGcvVDZoYWhQRjg1L0RNQ29qNDgrL0tFMmVPSE0ya1VSZ2dLUkpVRGc9PQo=",
+      "url": "https://github.com/HanryYu/whisperpal-releases/releases/download/v0.2.5/WhisperPal_0.2.5_windows_x64.exe"
     },
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSV3A5OVU1WFlEYTYxT3V1NS9EQnQxNkJOeDdSSldoOFp2NU1Ga1lvUENEazAzZEs5K3k1amRzQWJVendYMkNKWUJ0MWJ5NXBldlpJbE1Helkrb0Q3REJlVW10U1NpQVFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMjkwMjk2CWZpbGU6V2hpc3BlclBhbF8wLjIuNF9saW51eF94NjQuQXBwSW1hZ2UKc2VLWmtXSDZwcDVFc0pueVpDL1NWSGR4WTh0YWJoYXR3RktzemFaUVFYYVR2WVpEc05ONmZkdC9lZk5taGpWaU9jWURNOHltRkhnWVdBRWNRNzlaQ2c9PQo=",
-      "url": "https://github.com/HanryYu/whisperpal-releases/releases/download/v0.2.4/WhisperPal_0.2.4_linux_x64.AppImage"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSV3A5OVU1WFlEYTIvQTdFb3ErREtXbytoZERTOUxHZDExQ0tBdjR1WDFrd21wMTc2YWw5MjFrVmc2RjYzVTJwTHMzd1NZakhtdE5XZE1rZ2xYRzlFOXEvQ1M1cHNkOHc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNTM3MDkyCWZpbGU6V2hpc3BlclBhbF8wLjIuNV9saW51eF94NjQuQXBwSW1hZ2UKYlN3SWJoKzRaSEFSS2wyanlOajU4M2FqdnZjTTd5RzFIMWo0QUNFVUVacDkyS3ZibGppUUR0akNLRDRLWFN3OCtoWjNWbDJRZnRnUXdsaUVCODFSRGc9PQo=",
+      "url": "https://github.com/HanryYu/whisperpal-releases/releases/download/v0.2.5/WhisperPal_0.2.5_linux_x64.AppImage"
     }
   },
   "notes_i18n": {
-    "en": "Meeting transcripts keep speaker labels more consistently across continuous speech and repeated speaker identification.\n\n### Updated\n\n- **macOS app icon** — refreshed the application icon.\n\n### Fixed\n\n- **Continuous speech** — merge supported fragments from the same speaker while preserving pauses, short interjections, and overlapping speakers.\n- **Uncertain passages** — keep uncertainty limited to the affected words instead of removing the speaker label from an entire long passage.\n- **Saved meetings** — re-identifying speakers preserves manual assignments, cleared labels, translations, and existing word timing, with stable results when applied again.\n- **Speaker detection on macOS** — retain short speech segments without enough evidence to merge them, and avoid filtering local speech twice after dual-track echo analysis.",
-    "zh-CN": "改善连续发言的会议人归属，并让重新识别后的文稿保持稳定。\n\n### 更新\n\n- **macOS 应用图标**：更新应用图标。\n\n### 修复\n\n- **连续发言**：合并有充分依据的同人发言片段，同时保留停顿、短插话和重叠发言。\n- **不确定片段**：仅将受影响的字词保留为未识别，避免整段长发言失去会议人归属。\n- **已有会议**：重新识别时保留人工指定、人工清除、译文和已有字词时间，重复处理结果保持稳定。\n- **macOS 会议人识别**：保留缺乏归并依据的短发言，并避免双轨回声分析后再次过滤本地语音。"
+    "en": "The session AI panel sits in its own rounded surface, and Windows and Linux use the app's window controls.\n\n### Updated\n\n- **Session AI panel** — the panel is inset inside the session, with rounded corners and its own surface.\n- **Windows and Linux windows** — minimize, maximize, and close sit at the top right. App actions are in the sidebar menu.",
+    "zh-CN": "会话里的 AI 面板收成独立的圆角表面，Windows 和 Linux 改用应用自己的窗口按钮。\n\n### 更新\n\n- **会话 AI 面板**：面板内包在会话页中，带圆角和自己的表面。\n- **Windows 和 Linux 窗口**：最小化、最大化和关闭在右上角。应用操作在侧栏菜单里。"
   },
-  "release_page": "https://github.com/HanryYu/whisperpal-releases/releases/tag/v0.2.4",
+  "release_page": "https://github.com/HanryYu/whisperpal-releases/releases/tag/v0.2.5",
   "downloads": {
-    "macos_arm64": "https://github.com/HanryYu/whisperpal-releases/releases/download/v0.2.4/WhisperPal_0.2.4_macos_arm64.dmg",
-    "windows_x64": "https://github.com/HanryYu/whisperpal-releases/releases/download/v0.2.4/WhisperPal_0.2.4_windows_x64.exe",
-    "linux_x64": "https://github.com/HanryYu/whisperpal-releases/releases/download/v0.2.4/WhisperPal_0.2.4_linux_x64.AppImage",
-    "linux_x64_deb": "https://github.com/HanryYu/whisperpal-releases/releases/download/v0.2.4/WhisperPal_0.2.4_linux_x64.deb",
-    "linux_x64_rpm": "https://github.com/HanryYu/whisperpal-releases/releases/download/v0.2.4/WhisperPal_0.2.4_linux_x64.rpm"
+    "macos_arm64": "https://github.com/HanryYu/whisperpal-releases/releases/download/v0.2.5/WhisperPal_0.2.5_macos_arm64.dmg",
+    "windows_x64": "https://github.com/HanryYu/whisperpal-releases/releases/download/v0.2.5/WhisperPal_0.2.5_windows_x64.exe",
+    "linux_x64": "https://github.com/HanryYu/whisperpal-releases/releases/download/v0.2.5/WhisperPal_0.2.5_linux_x64.AppImage",
+    "linux_x64_deb": "https://github.com/HanryYu/whisperpal-releases/releases/download/v0.2.5/WhisperPal_0.2.5_linux_x64.deb",
+    "linux_x64_rpm": "https://github.com/HanryYu/whisperpal-releases/releases/download/v0.2.5/WhisperPal_0.2.5_linux_x64.rpm"
   }
 }
